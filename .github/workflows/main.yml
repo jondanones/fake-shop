@@ -20,7 +20,7 @@ jobs:
         with:
           context: .src
           push: true
-          file: ./src/Dockerfile
+          file: .src/Dockerfile
           tags: |
             jondanones/fake-shop-desafio:v${{ github.run_number }}
             jondanones/fake-shop-desafio
